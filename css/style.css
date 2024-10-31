@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Digital;
+    src: url(../font/DSDIGI.eot);
+    src: url(../font/DSDIGI.eot?#iefix) format("embedded-opentype"),
+        url(../font/DSDIGI.woff) format("woff"),
+        url(../font/DSDIGI.ttf) format("truetype");
+
+}
+
+.clock
+{
+    font-family: Digital;
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.countdown-wrap
+{
+    text-align: center;
+    width: 200px;
+}
+
+.widget .countdown-wrap
+{
+    width: 100%;
+}
+
+.countdown-title
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.countdown-wrap a, .countdown-wrap a:hover, .countdown-wrap a:visited
+{
+    color: #000 !important;
+    font-weight: bold !important;
+    font-style: italic;
+}
